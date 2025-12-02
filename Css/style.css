@@ -4,7 +4,6 @@
 }
 
 body {
-    /* background: #0f1724; */
     color: #fff;
     font-family: sans-serif;
     text-align: center;
@@ -29,8 +28,6 @@ h1 {
     max-height: 100%;
     margin: auto;
     padding: 20px;
-    /* background: #0f1724; */
-    /* background: pink; */
     border-radius: 12px;
 }
 
