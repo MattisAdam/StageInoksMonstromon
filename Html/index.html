@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Monstromon — Jeu d'entraînement</title>
+    <link rel="stylesheet" href="/Css/style.css">
+</head>
+
+<body>
+    <h2>Mini-Monstres</h2>
+    <div class="box arena">
+
+        <!-- Joueur -->
+        <div class="monster" id="playerCard">
+            <img id="playerImg" class="monster-img">
+            <p id="playerName"></p>
+            <p id="playerType"></p>
+            <p id="playerLevel"></p>
+            <div class="hp-box">
+                <div id="playerHpBar" class="hp-fill"></div>
+            </div>
+            <p id="playerHpText"></p>
+            <button onclick="attack('weak')">Attaque faible</button>
+            <button onclick="attack('strong')">Attaque forte</button>
+        </div>
+
+        <!-- Ennemi -->
+        <div class="monster" id="enemyCard">
+            <img id="enemyImg" class="monster-img">
+            <p id="enemyName"></p>
+            <p id="enemyType"></p>
+            <p id="enemyLevel"></p>
+            <div class="hp-box">
+                <div id="enemyHpBar" class="hp-fill"></div>
+            </div>
+            <p id="enemyHpText"></p>
+        </div>
+
+    </div>
+    <button onclick="window.location.reload()">Recommencer</button>
+    <script src="/Script/script.js" defer></script>
+</body>
+
+</html>
