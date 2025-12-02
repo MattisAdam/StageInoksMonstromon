@@ -86,7 +86,7 @@ function typeEffectiveness(attackerType, defenderType) {
 // Attaque du joueur
 function attack(type) {
     if (turn !== 'player' || player.hp <= 0 || enemy.hp <= 0) return;
-    let base = type === 'weak' ? randomInt(5, 12) : randomInt(12, 25);
+    let base = type === 'weak' ? randomInt(1, 12) : randomInt(12, 25);
     let dmg = Math.round(base * typeEffectiveness(player.type, enemy.type));
 
     if (player.level != 0)
@@ -126,8 +126,6 @@ function enemyAttack() {
 
     turn = 'player';
 }
-
-
 
 // Initialisation
 updateDOM();

@@ -1,9 +1,12 @@
 body {
-    background: #0f1724;
+    /* background: #0f1724; */
     color: #fff;
     font-family: sans-serif;
     text-align: center;
     padding: 30px;
+    background-image: url("/Img/arene.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h2 {
@@ -15,10 +18,12 @@ h2 {
     flex-direction: row;       
     justify-content: center;   
     gap: 100px;                
-    max-width: 700px;
+    max-width: auto;
+    max-height: 100%;
     margin: auto;
     padding: 20px;
-    background: #0f1724;
+    /* background: #0f1724; */
+    /* background: pink; */
     border-radius: 12px;
 }
 
