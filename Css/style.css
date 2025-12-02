@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Blackfang';
+    src: url('/Font/Blackfang.otf') format('truetype');
+}
+
 body {
     /* background: #0f1724; */
     color: #fff;
@@ -9,8 +14,10 @@ body {
     background-size: cover;
 }
 
-h2 {
-    margin-bottom: 25px;
+h1 {
+    margin-bottom: 75px;
+    font-size: 175px;
+    font-family: 'Blackfang';
 }
 
 .box {
